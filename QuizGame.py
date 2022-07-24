@@ -4,14 +4,14 @@ if Player.lower() != 'yes':
     print("Good Bye")
     quit()  
 
-name_player = input("Enter Your Name: ")
+name_player = input("Enter Your NickName: ")
 
 print("Let's Start the Game :) ",name_player)
 
 score = 0
 
-answer = input(' What is CPU stands for? \n ')
-if answer.lower() == 'central processing unit':
+answer = input(' What is sum of 1 + 1 ? \n ')
+if answer.lower() == '2':
     print("Correct")
     score += 1
 else:
